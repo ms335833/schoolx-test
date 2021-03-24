@@ -36,7 +36,7 @@ export default function Home() {
         <div className="main_container">
           <Header />
         </div>
-        <LargestPLatformComponent />
+        <LargestPLatformComponent setOpenCloseModal={setOpenCloseModal} />
         <CoursesIntro />
         <PopularComponent />
         <StartLearningInfo />

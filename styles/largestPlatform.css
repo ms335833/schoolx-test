@@ -24,6 +24,9 @@
   width: 70%;
   padding: 20px 0px;
 }
+.course_selection_container .first_button_container{
+  padding: 20px 0px;
+}
 .course_selection_container .main_content_discription p {
   color: white;
   margin: 0px;

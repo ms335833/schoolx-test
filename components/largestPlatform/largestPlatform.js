@@ -1,4 +1,5 @@
-const LargestPLatformComponent = () => {
+const LargestPLatformComponent = (props) => {
+  let { setOpenCloseModal } = props;
   return (
     <div className="course_selection_container">
       {/* images */}
@@ -29,10 +30,13 @@ const LargestPLatformComponent = () => {
         </p>
       </div>
       {/* button */}
-      <div className="flex">
+      <div className="flex first_button_container">
         <div className="button_container">
           {/* custom button */}
-          <div className="flex button justify-between items-center">
+          <div
+            className="flex button justify-between items-center"
+            onClick={() => setOpenCloseModal(true)}
+          >
             <div className="flex items-center">
               <div>
                 <img src="/Category-icon2.svg" />

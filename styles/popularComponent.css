@@ -1,6 +1,14 @@
 .popular_main_container {
-  background-color: #F5F6FA;
+  background-color: #f5f6fa;
   padding: 30px 10px;
+}
+.popular_main_container
+  button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  display: none !important;
+}
+.popular_main_container
+  button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  display: none !important;
 }
 .popular_main_container .title h3 {
   text-align: left;
@@ -47,9 +55,10 @@
   h4 {
   margin: 0px;
   padding: 0px 8px 0px 0px;
-  color: rgb(255, 215, 0);
+  color: #eb8a2f;
   font-size: 13px;
 }
+
 .popular_main_container .box_container .box_content-container .bookmark_img {
   width: 20px;
 }
