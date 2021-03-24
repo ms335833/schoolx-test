@@ -1,3 +1,4 @@
+@import "./largestPlatform.css";
 @import "./coursesIntro.css";
 @import "./header.css";
 @import "./popularComponent.css";
@@ -5,7 +6,6 @@
 @import "./footer.css";
 @import "./learningInfo.css";
 @import "./modal.css";
-
 
 body {
   margin: 0px;
@@ -25,6 +25,9 @@ body {
 }
 .justify-center {
   justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-evenly {
   justify-content: space-evenly;

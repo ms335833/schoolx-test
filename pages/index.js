@@ -1,12 +1,14 @@
 import { useState } from "react";
 import Head from "next/head";
 import Header from "../components/header/header";
+import CourseSelection from "../components/largestPlatform/largestPlatform";
 import CoursesIntro from "../components/coursesIntro/coursesIntro";
 import PopularComponent from "../components/popular/popular";
 import ProfileInfo from "../components/profileInfo/profileInfo";
 import Footer from "../components/footer/footer";
 import StartLearningInfo from "../components/startLearning/startLearning";
 import Popup from "../components/modal/modal";
+import LargestPLatformComponent from "../components/largestPlatform/largestPlatform";
 
 export default function Home() {
   const [openCloseModal, setOpenCloseModal] = useState(false);
@@ -34,6 +36,7 @@ export default function Home() {
         <div className="main_container">
           <Header />
         </div>
+        <LargestPLatformComponent />
         <CoursesIntro />
         <PopularComponent />
         <StartLearningInfo />

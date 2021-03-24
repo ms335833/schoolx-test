@@ -1,0 +1,93 @@
+.course_selection_container {
+  background-color: #1a1631;
+  padding: 40px 10px;
+}
+.course_selection_container .inside_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 97%;
+}
+.course_selection_container .inside_container .top_image {
+  padding: 0px 15px 5px 0px;
+}
+.course_selection_container .main_content_title {
+  width: 80%;
+}
+.course_selection_container .main_content_title h2 {
+  color: white;
+  margin: 0px;
+  padding: 10px 0px;
+}
+.course_selection_container .main_content_discription {
+  width: 70%;
+  padding: 20px 0px;
+}
+.course_selection_container .main_content_discription p {
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+.course_selection_container .main_content_discription .blue_text {
+  color: #01b5f6;
+}
+.course_selection_container .button_container {
+  width: 95%;
+  padding: 20px 7px 0px 3px;
+}
+.course_selection_container .button_container .button {
+  border: 2px solid #01b5f6;
+  background: #202540;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.course_selection_container .button_container .button:hover {
+  background: #2c3356;
+}
+.course_selection_container .button_container2 {
+  width: 95%;
+  padding: 10px 10px 20px 3px;
+}
+.course_selection_container .button_container2 button {
+  font-size: 16px;
+  width: 100%;
+  padding: 18px 10px 18px 10px;
+  color: white;
+  background: #01b5f6;
+  outline: none;
+  border: 1px solid #01b5f6;
+  border-radius: 5px;
+}
+.course_selection_container .button_container2 button:hover {
+  background-color: #0eabe4;
+}
+.course_selection_container .button_container .button_text {
+  color: #d5d5d5;
+  padding: 0px 10px;
+}
+.course_selection_container .bottom_images_container {
+  position: absolute;
+  margin: -75px ​0px 0px 0px;
+}
+.course_selection_container .bottom_images_container {
+  position: absolute;
+}
+.course_selection_container .bottom_images_container img {
+  margin: -140px 0px 0px -8px;
+}
+.course_selection_container .downArrow_paragraph_container {
+  padding: 10px 15px 0px 3px;
+}
+.course_selection_container .downArrow_paragraph_container img {
+  height: 40px;
+}
+.course_selection_container .downArrow_paragraph_container p {
+  margin: 0px;
+  color: white;
+  font-size: 14px;
+}
+.course_selection_container .downArrow_paragraph_container h4 {
+  margin: 0px;
+  color: #01b5f6;
+}

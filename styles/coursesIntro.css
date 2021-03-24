@@ -1,6 +1,7 @@
 .course_intro_container {
   padding: 10px;
   background-color: #F5F6FA;
+  position: relative;
 }
 .course_intro_container .main_title{
     width: 60%;
