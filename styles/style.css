@@ -3,11 +3,14 @@
 @import "./popularComponent.css";
 @import "./profileInfo.css";
 @import "./footer.css";
+@import "./learningInfo.css";
+@import "./modal.css";
+
 
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* common flex css */

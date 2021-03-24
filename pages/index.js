@@ -1,11 +1,15 @@
+import { useState } from "react";
 import Head from "next/head";
 import Header from "../components/header/header";
 import CoursesIntro from "../components/coursesIntro/coursesIntro";
 import PopularComponent from "../components/popular/popular";
 import ProfileInfo from "../components/profileInfo/profileInfo";
 import Footer from "../components/footer/footer";
+import StartLearningInfo from "../components/startLearning/startLearning";
+import Popup from "../components/modal/modal";
 
 export default function Home() {
+  const [openCloseModal, setOpenCloseModal] = useState(false);
   return (
     <div>
       <Head>
@@ -22,11 +26,17 @@ export default function Home() {
         ></link>
       </Head>
       <div>
+        {/* popup */}
+        <Popup
+          openCloseModal={openCloseModal}
+          setOpenCloseModal={setOpenCloseModal}
+        />
         <div className="main_container">
           <Header />
         </div>
         <CoursesIntro />
         <PopularComponent />
+        <StartLearningInfo />
         <ProfileInfo />
         <Footer />
       </div>

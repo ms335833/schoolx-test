@@ -37,3 +37,6 @@
   margin: 45px 0px 0px 0px;
   width: 100%;
 }
+.profile_info_container .dot_image_container img{
+  height: fit-content;
+}

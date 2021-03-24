@@ -1,0 +1,40 @@
+.learning_info_container {
+  background-color: #fff;
+  padding: 40px 0px;
+}
+.learning_info_container .left_side_content {
+  padding: 0px 10px;
+  z-index: 1;
+}
+.learning_info_container .title{
+    width: 80%;
+}
+.learning_info_container .title h2 {
+  color: #292929;
+  margin: 0px;
+  padding: 10px 0px;
+}
+.learning_info_container .discription {
+  color: #848484;
+  font-weight: bold;
+  width: 70%;
+}
+.learning_info_container .button {
+  padding: 10px 0px;
+}
+.learning_info_container .button button {
+  background-color: #33b5f6;
+  border: 1px solid #33b5f6;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 3px;
+}
+.learning_info_container .side_image {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.learning_info_container .side_image img {
+  height: 190px;
+}

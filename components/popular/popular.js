@@ -84,9 +84,6 @@ const PopularComponent = () => {
             <div className="box_content-container">
               <div className="flex justify-between">
                 <h4>Methemathics(AS) Crash Course</h4>
-                <div className="bookmark_img">
-                  <img src="/bookmark-24px.svg" />
-                </div>
               </div>
               <div className="paragraph">
                 <p>Tayyaba zaheer kayani</p>
@@ -121,9 +118,6 @@ const PopularComponent = () => {
             <div className="box_content-container">
               <div className="flex justify-between">
                 <h4>Methemathics(AS) Crash Course</h4>
-                <div className="bookmark_img">
-                  <img src="/bookmark-24px.svg" />
-                </div>
               </div>
               <div className="paragraph">
                 <p>Tayyaba zaheer kayani</p>

@@ -1,0 +1,21 @@
+.modal_button_container {
+  background: #d5d5d5;
+  padding: 10px 8px;
+  border-radius: 5px;
+  margin: 8px 0px;
+}
+.modal_title_container h4 {
+  padding: 0px 8px;
+  font-size: 15px;
+  color: #000;
+  margin: 0px;
+}
+.react-responsive-modal-modal {
+  max-width: 900px !important;
+  box-shadow: none !important;
+  background: none !important;
+  padding: 1.2rem !important;
+}
+.react-responsive-modal-closeButton{
+    display: none!important;
+}
