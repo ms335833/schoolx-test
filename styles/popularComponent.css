@@ -1,0 +1,52 @@
+.popular_main_container {
+  background-color: #fff;
+  padding: 10px 10px;
+}
+.popular_main_container .title h3 {
+  text-align: left;
+  font: normal normal medium 24px/32px Roboto Slab;
+  letter-spacing: 0px;
+  color: #0a0d16;
+  opacity: 1;
+}
+.popular_main_container .box_container {
+  border-radius: 30px;
+  margin: 0px 3px;
+}
+.popular_main_container .box_inside_container {
+  border-radius: 30px;
+}
+.popular_main_container .box_container .box_content-container {
+  background: #fff;
+}
+.popular_main_container .box_container .box_content-container h4 {
+  margin: 0px;
+  padding: 0px 1px 0px 0px;
+  font-size: 14px;
+}
+.popular_main_container .box_container .price {
+  margin: 0px;
+  padding: 5px 10px 5px 0px;
+}
+.popular_main_container .box_container .deleted_text h5{
+    color: #848484;
+    margin: 0px;
+}
+.popular_main_container .box_container .box_content-container .paragraph p {
+  color: #848484;
+  font: normal normal medium 13px/19px Roboto;
+  margin: 0px;
+  padding: 5px 0px;
+}
+.popular_main_container
+  .box_container
+  .box_content-container
+  .starts_rating_container
+  h4 {
+  margin: 0px;
+  padding: 0px 8px 0px 0px;
+  color: rgb(255, 215, 0);
+}
+.popular_main_container .box_container .box_content-container .bookmark_img {
+  width: 20px;
+}

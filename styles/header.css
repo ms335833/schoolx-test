@@ -1,0 +1,13 @@
+.main_container{
+  background: #1a1631 0% 0% no-repeat padding-box;
+}
+.main_container .header_container {
+    padding: 10px 10px;
+}
+.header_container .file_icon_container{
+    padding:0px 10px 0px 10px;
+}
+.header_container .right_side img{
+    height: 20px;
+    width: 20px;
+}

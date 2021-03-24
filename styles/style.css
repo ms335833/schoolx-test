@@ -1,0 +1,31 @@
+@import "./coursesIntro.css";
+@import "./header.css";
+@import "./popularComponent.css";
+@import "./profileInfo.css";
+@import "./footer.css";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* common flex css */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.items-center {
+  align-items: center;
+}

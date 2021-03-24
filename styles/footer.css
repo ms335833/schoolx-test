@@ -1,0 +1,34 @@
+.footer_container{
+    padding: 15px 20px;
+}
+.footer_container .lists_container ul{
+    list-style: none;
+    padding: 0px;
+    color: #707070;
+}
+.footer_container .lists_container li{
+    padding: 3px 0px;
+}
+.footer_container .hr_line_container{
+    color: #707070;
+}
+.footer_container .lists_container .second_lists{
+    padding: 0px 8px 0px 0px;
+}
+.footer_container .advertisemnt_title{
+    color: #000;
+}
+.footer_container .button_container .second_image{
+    padding: 0px 10px;
+}
+.footer_container .icons_container{
+    padding: 10px 0px;
+}
+.footer_container .icons_container .single_icon{
+    padding: 0px 8px 0px 0px;
+}
+.footer_container .para_container p{
+    color: #707070;
+    margin: 0px;
+    padding: 5px 0px;
+}
